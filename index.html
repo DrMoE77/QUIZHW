@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Todo List</title>
+  </head>
+  <body style="text-align: center;">
+
+    <h2> Coding Quiz </h2>
+
+    <div id="main">
+
+      <p id= "questionElement"></p>
+    
+    <div class="container">
+    
+      <div id="row1" class="row">
+          
+        <div class="col">
+          <button id ="answer0" class=" option"> </button>
+        </div>
+  
+        <div class="col">
+          <button id ="answer1" class=" option"> </button>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div id="row2" class="row">
+  
+        <div class="col">
+          <button id ="answer2" class="  option"> </button>
+        </div>
+  
+        <div class="col">
+          <button id ="answer3" class=" option"> </button>
+        </div>
+    
+      </div> 
+
+      <button type="button" id="startButton" class="btn btn-success">
+          Start Quiz
+      </button>
+
+    </div>
+  </div>
+
+  <div id="score">
+    <p id = "quizOver"></p>
+
+    <p id="message">You have 30 seconds to answer 4 questions! 
+      <br>
+      + 5 seconds for a correct answer & - 5 seconds for a wrong answer!</p>
+
+    <p id="timer"></p>
+  </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+  }
+
+  @media screen and (max-width: 500px) {
+    #main{
+      margin: auto;
+    }
+    p {
+      font-size: 16px;
+      padding: 5px 20px 5px 20px;
+    }
+    #questionElement{
+      padding-top: 15px;
+    }
+    #row2{
+      padding-bottom: 5px;
+    }
+  }
+
+#main{
+    padding: 20px;
+    background-color: cyan;
+}
+
+p{
+    font-size: 20px;
+    padding: 10px;
+}
+
+h2{
+
+    padding: 10px;
+    padding-top: 80px;
+
+}
+
+.option{
+ padding: 5px;
+ width: 250px;
+ border-radius: 25px;
+ background-color: blue;
+ color: cornsilk;
+}
+.row{
+    padding-top: 10px ;
+    padding-bottom: 10px;
+}
+#timer{
+    color: red;
+}
